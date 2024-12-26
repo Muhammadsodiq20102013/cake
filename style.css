@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:lightpink;
+}
+.navbar{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+}
+.navdiv{
+    width: 20%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navdiv img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.navahref{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 30px;
+    background-color:palevioletred;
+}
+.navahref div{
+    width: 10%;
+    height: 10%;
+    border: 2px groove fuchsia;
+}
+.navahref a:hover{
+    color: red;
+}
+.navahref a{
+    color: pink;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0px 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button{
+    width: 10%;
+    height: 50%;
+    margin: 0px 10px;
+    background-color:rgb(207, 98, 134);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3.5px groove purple;
+    border-radius: 10px;
+}
+.tortsec{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.chaptort{
+    width:50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+}
+.ongtort{
+    width:50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+}
+.tortrasm img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 3px dotted purple;
+}
+.tortrasm{
+    width: 50%;
+    height: 50%;
+    margin: 20px 0px;
+}
+.tortyozuv{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+.tortyozuv p{
+    width: 100%;
+    height: 1%;
+    border: 3px solid purple;
+    border-radius: 10px;
+    margin: 0px 20px;
+}
+.tortyozuv h1{
+    font-size: 40px;
+    color: purple;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+}
+.tortyozuv h3{
+    font-size: 40px;
+    color: palevioletred;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+.ongtortrasm img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 3px double purple;
+
+    }
+.ongtortyozuv{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+.ongtortrasm{
+    width: 50%;
+    height: 50%;
+    margin: 20px 0px;
+}
+.ongtort p{
+    width: 100%;
+    height: 1%;
+    border: 3px solid purple;
+    margin: 0px 20px;
+    border-radius: 10px;
+}
+.ongtort h1{
+    font-size: 40px;
+    color: purple;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    padding-top: 20px;
+    
+}
+.ongtort h3{
+    font-size: 40px;
+    color:palevioletred;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+span{
+    color:red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pishiriqsec{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.chappishiriq{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ongpishiriq{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pishiriqrasm{
+    width: 50%;
+    height: 50%;
+    padding: 10px 10px;
+}
+.pishiriqrasm img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 3px groove purple;
+}
+.pishiriqyozuv{
+    width: 50%;
+    height: 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.pishiriqyozuv p{
+    width: 95%;
+    height: 0.5%;
+    border: 10px ;
+    background-color: purple;
+}
+.pishiriqyozuv h3{
+    font-size: 40px;
+    color: palevioletred;
+}
+.pishiriqyozuv h1{
+    font-size: 40px;
+    color: purple;
+}
+.sotib{
+    width: 150px;
+    height: 50px;
+    margin-top: 50px;
+    display: flex;
+    margin-left: 100px;
+}
+.sotib h1{
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
